@@ -32,7 +32,14 @@
          }
       },
       "develop" : {
+         "recommends" : {
+            "App::perlimports" : "0.000049",
+            "Perl::Critic" : "1.144",
+            "Perl::Critic::Community" : "v1.0.3",
+            "Perl::Tidy" : "20221112"
+         },
          "requires" : {
+            "Plack::Middleware::REPL" : "0.01",
             "Test::CPAN::Meta" : "0",
             "Test::MinimumVersion::Fast" : "0.04",
             "Test::PAUSE::Permissions" : "0.07",
@@ -42,16 +49,48 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "DBD::SQLite" : "1.72",
+            "DBI" : "1.643",
+            "DateTime::TimeZone" : "2.57",
+            "FFI::Platypus" : "0",
+            "GD" : "0",
+            "HTTP::Tinyish" : "0.18",
+            "IO::Socket::SSL" : "2.075",
+            "Image::ExifTool" : "12.42",
+            "Inline::C" : "0",
+            "List::AllUtils" : "0.19",
+            "List::SomeUtils" : "0.59",
+            "List::Util" : "1.63",
+            "List::UtilsBy" : "0.12",
+            "Net::SSLeay" : "1.92",
+            "Plack::App::File" : "0",
+            "Plack::Builder" : "0",
+            "Plack::Middleware::Debug" : "0",
+            "Plack::Middleware::Static" : "0",
+            "SQL::Abstract" : "2.000001",
+            "Text::Markdown::Hoedown" : "1.03",
+            "Time::Moment" : "0.44",
+            "perl" : "v5.38.2"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0.96"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/marlencrabapple/Softserve/issues"
+      },
+      "homepage" : "https://github.com/marlencrabapple/Softserve",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/marlencrabapple/Softserve.git",
+         "web" : "https://github.com/marlencrabapple/Softserve"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 4.16",
    "x_static_install" : 1

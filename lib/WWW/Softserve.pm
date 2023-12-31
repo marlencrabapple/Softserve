@@ -20,7 +20,7 @@ method startup {
   my $config = $self->config;
   
   $r->get('/', sub ($c) {
-    $c->stash->{時} = time;
+    $c->stash->{茶の時} = time;
     $c->render('<pre>'
       . escape_html(join '', Dumper($c, $self))
       . '</pre>')
