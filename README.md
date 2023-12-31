@@ -8,6 +8,10 @@ front facing/application stuff?*
 Softserve is a scriptable NS and DNS platform [[1]](#fig-1) allowing
 for all sorts of wacky internet hackery yet to be conceived of. More featureful and efficient than a VPN by design. Softserve saves you time, battery life, data, etc., and of course keeps your browsing habits safe from ISPs, nosey IoT devices and whatever perils there be in unsafe networks.
 
+## Why?
+~~YouTube ad-blocking with plausibile deniability for me and all of you
+wonderful people too c:~~
+
 ### Fig 1
 >Dynamic DNS -> CloudFlare -> \****YOU ARE HERE***\*
 
